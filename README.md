@@ -20,9 +20,9 @@ Assignment:
                 The system should function with both \r\n and \n carriage return, new line configurations.
 
 Solution:
+                My first thought was to create a Patient object with attributes for SSN, AGE, Phone number, and Status with getters and setters, then to parse through the data                   and parse out a list of Patients. The Patient object would overwrite the toString() method, that would return a String for each value. That would have been a                     better solution if the app was expected to do more with the Patients than just return a parsed list. Becuase of the time limit, I kept it fairly simple.
 
-
-                Because this app is so small, I didn't bother to creat MVC directories.
+                And because this app is so small, I didn't bother to creat MVC directories.
                 I didn't use String.split(), because my auto-fill says it takes a regex, which is off-limits for this assignment.
                 There are no doubt other ways to accomplish this task, but without using regex, this was the most efficient way I came up with in my short time working tonight.
 
